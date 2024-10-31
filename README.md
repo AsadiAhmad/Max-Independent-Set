@@ -7,8 +7,7 @@ Calculating Max Independent Set with greedy algorithm
   <img src="https://github.com/devicons/devicon/blob/master/icons/networkx/networkx-original.svg"  title="Networkx" alt="Networkx" width="40" height="40"/>&nbsp;
 </div>
 
-For tree : anytree Lib
-
+For Tree : anytree Lib
 For Graph : networkX Lib
 
 ## Max Independent Set for Tree
