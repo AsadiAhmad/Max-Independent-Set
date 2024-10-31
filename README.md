@@ -32,3 +32,9 @@ Sometimes return correct answer (because its greedy algorithm)
 ### Wrong answer :
 
 <img src="/Pictures/2.png"/>
+
+## Conclusion :
+
+Greedy algorithm works correct for trees not graphs
+
+Also greedy algorithm for tree has better complexity
