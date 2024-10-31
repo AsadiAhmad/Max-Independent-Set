@@ -3,7 +3,7 @@ Calculating Max Independent Set with greedy algorithm
 
 ## Max Independent Set for Tree
 
-time complexity : O(V)
+### time complexity : O(V)
 
 always return correct answer (always return Max Independent Set)
 
@@ -11,14 +11,14 @@ always return correct answer (always return Max Independent Set)
 
 ## Max Independent Set for Graph
 
-time complexity : O(V^2+VE)
+### time complexity : O(V^2+VE)
 
 sometimes return correct answer (because its greedy algorithm)
 
-correct answer :
+### correct answer :
 
 <img src="/Pictures/3.png"/>
 
-wrong answer :
+### wrong answer :
 
 <img src="/Pictures/2.png"/>
