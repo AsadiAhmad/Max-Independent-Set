@@ -1,24 +1,30 @@
 # Max-Independent-Set
 Calculating Max Independent Set with greedy algorithm
 
+## Tech :hammer_and_wrench: Languages and Tools :
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/networkx/networkx-original.svg"  title="Networkx" alt="Networkx" width="40" height="40"/>&nbsp;
+</div>
+
 ## Max Independent Set for Tree
 
-### time complexity : O(V)
+### Time complexity : O(V)
 
-always return correct answer (always return Max Independent Set)
+Always return correct answer (Always return Max Independent Set)
 
 <img src="/Pictures/1.png"/>
 
 ## Max Independent Set for Graph
 
-### time complexity : O(V^2+VE)
+### Time complexity : O(V^2+VE)
 
-sometimes return correct answer (because its greedy algorithm)
+Sometimes return correct answer (because its greedy algorithm)
 
-### correct answer :
+### Correct answer :
 
 <img src="/Pictures/3.png"/>
 
-### wrong answer :
+### Wrong answer :
 
 <img src="/Pictures/2.png"/>
