@@ -13,7 +13,7 @@ For Graph : networkX Lib
 
 ## Max Independent Set for Tree
 
-### Time complexity : O(V)
+### Time complexity : O(n)
 
 Always return correct answer (Always return Max Independent Set)
 
@@ -21,7 +21,7 @@ Always return correct answer (Always return Max Independent Set)
 
 ### Prove : 
 
-The initial set ```unCutNodesSet``` is constructed by adding the root and all descendants. Using ```Root.descendants``` from the ```anytree``` library, this operation takes O(V), where V is the number of nodes in the tree.
+**Step 1:** The initial set ```unCutNodesSet``` is constructed by adding the root and all descendants. Using ```Root.descendants``` from the ```anytree``` library, this operation takes O(n), where n is the number of nodes in the tree.
 
 ## Max Independent Set for Graph
 
