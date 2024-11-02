@@ -21,7 +21,7 @@ Always return correct answer (Always return Max Independent Set)
 
 ### Prove : 
 
-The initial set ```unCutNodesSet``` is constructed by adding the root and all descendants. Using Root.descendants from the anytree library, this operation takes O(V), where V is the number of nodes in the tree.
+The initial set ```unCutNodesSet``` is constructed by adding the root and all descendants. Using ```Root.descendants``` from the ```anytree``` library, this operation takes O(V), where V is the number of nodes in the tree.
 
 ## Max Independent Set for Graph
 
