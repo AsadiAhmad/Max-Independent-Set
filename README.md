@@ -23,14 +23,15 @@ Always return correct answer (Always return Max Independent Set)
 
 **Step 1 : Initialization** The initial set ```unCutNodesSet``` is constructed by adding the root and all descendants. Using ```Root.descendants``` from the ```anytree``` library, this operation takes O(n), where n is the number of nodes in the tree.
 
-**Step 2 : Independent Set Iteration** Checking if a node has no children (leaf check) is O(1).
-Appending to IndependentSet and removing from unCutNodesSet are both O(1).
-For each non-leaf node, the function calls itself recursively on each child.
+**Step 2 : Independent Set Iteration** 
+- Checking if a node has no children (leaf check) is O(1).
+- Appending to ```IndependentSet``` and removing from ```unCutNodesSet``` are both O(1).
+- For each non-leaf node, the function calls itself recursively on each child.
 
 **Step 3 : Main Loop** The main loop iterates as long as unCutNodesSet is not empty. Within each iteration:
 
-- Choosing a node in unCutNodesSet: The line next(iter(unCutNodesSet)) takes O(1) time.
-- Calling IndependentSetIteration: The core of the complexity lies in this recursive function.
+- Choosing a node in ```unCutNodesSet```: The line ```next(iter(unCutNodesSet))``` takes O(1) time.
+- Calling ```IndependentSetIteration```: The core of the complexity lies in this recursive function.
 
 The loop runs O(n) times since it processes each node once O(1), with each iteration involving O(1) operations and at most one call to IndependentSetIteration.
 
