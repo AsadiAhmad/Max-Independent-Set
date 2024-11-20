@@ -26,10 +26,10 @@ Always return correct answer (Always return Max Independent Set)
 **Step 2 : Independent Set Iteration** 
 - Checking if a node has no children (leaf check) is O(1).
 - Appending to ```IndependentSet``` and removing from ```unCutNodesSet``` are both O(1).
-- For each non-leaf node, the function calls itself recursively on each child. and we can say if there is k nodes under this function complexity should be O(k)
+- For each non-leaf node, the function calls itself recursively on each child. and we can say if we have k nodes under the selected subtree then complexity should be O(k)
+- what does this section do ? it found all of leaf nodes of a subtree then add those to the independent set list then remove all leafs and preant leafs from the tree.
 
 **Step 3 : Main Loop** The main loop iterates as long as unCutNodesSet is not empty. Within each iteration:
-
 - Choosing a node in ```unCutNodesSet```: The line ```next(iter(unCutNodesSet))``` takes O(1) time.
 - Calling ```IndependentSetIteration```: The core of the complexity lies in this recursive function.
 
