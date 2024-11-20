@@ -33,7 +33,7 @@ Always return correct answer (Always return Max Independent Set)
 - Choosing a node in ```unCutNodesSet```: The line ```next(iter(unCutNodesSet))``` takes O(1) time.
 - Calling ```IndependentSetIteration```: The core of the complexity lies in this recursive function.
 
-**Total Complexity :** The while loop calls Independent Set Iteration function O(h(n)) times since Complexity of the Independent Set Iteration function is O(n) then the total complexity should be O(n) + O(n*h(n)) = O(n*h(n))
+**Total Complexity :** The while loop calls Independent Set Iteration function O(h(n)) times since Complexity of the Independent Set Iteration function is O(n) then the total complexity should be O(n) + O(n* h(n)) = O(n*h(n))
 
 **Best Case :** Now if we have a full tree it shows the Best case and the complexity should be Ω(n*Log(n)).
 
