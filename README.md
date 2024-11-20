@@ -39,6 +39,10 @@ Always return correct answer (Always return Max Independent Set)
 
 **Worst Case :** if we had a line tree then is shows the worst case and the complexity should be O(n^2).
 
+## Optimized Max Independent Set for Tree
+
+### Time complexity : O(n)
+
 ## Max Independent Set for Graph
 
 ### Time complexity : O(V^2+VE)
