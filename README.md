@@ -61,6 +61,8 @@ Sometimes return correct answer (because its greedy algorithm)
 
 <img src="/Pictures/5.png"/>
 
+the answer should be : F and E for the A, B, C, E, F, G set and a D node for whole graph then the answer should be : E, F, D but in greedy way we first choose G then can't choose E and F then we just should choose a Node from the complete-4 graph A, B, C, D and the greedy answer being G and A which is incorrect.
+
 ## Conclusion :
 
 Greedy algorithm works correct for trees not graphs
