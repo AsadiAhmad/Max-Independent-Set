@@ -5,11 +5,12 @@ Calculating Max Independent Set with greedy algorithm
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/networkx/networkx-original.svg"  title="Networkx" alt="Networkx" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/matplotlib/matplotlib-original.svg"  title="MatPlotLib" alt="MatPlotLib" width="40" height="40"/>&nbsp;
 </div>
 
-For Tree : anytree Lib
+For Tree : anytree Lib and from scratch tree for O(n) algortihm
 
-For Graph : networkX Lib
+For Graph : networkX Lib and matplotlib for showing the graph
 
 ## Max Independent Set for Tree
 
