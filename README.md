@@ -44,6 +44,10 @@ Always return correct answer (Always return Max Independent Set)
 
 ### Time complexity : O(n)
 
+Always return correct and optimal answer (Always return Max Independent Set)
+
+<img src="/Pictures/6.png"/>
+
 ### Prove : 
 
 **Step 1 : Tree and Nodes Initialization** 
