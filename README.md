@@ -53,9 +53,13 @@ Sometimes return correct answer (because its greedy algorithm)
 
 <img src="/Pictures/3.png"/>
 
+<img src="/Pictures/2.png"/>
+
+<img src="/Pictures/4.png"/>
+
 ### Wrong answer :
 
-<img src="/Pictures/2.png"/>
+<img src="/Pictures/5.png"/>
 
 ## Conclusion :
 
