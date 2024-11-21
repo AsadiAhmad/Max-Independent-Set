@@ -43,6 +43,36 @@ Always return correct answer (Always return Max Independent Set)
 
 ### Time complexity : O(n)
 
+### Prove : 
+
+**Step 1 : Tree and Nodes Initialization** 
+- Constructing each ```Node``` runs in O(1) wtih attributes like ```data```, ```parent```, ```children```.
+- Since constructing the whole tree wtih n ```Nodes``` costs O(n).
+
+**Step 2 : Iteration costs** every steps in while itration costs O(1) and we can say that each iteration costs O(1). 
+
+**Step 2.1 : Constructing Leafs** 
+- In the initialization step we add leafs of the tree dynamically each one cost O(1) and for whole tree costs O(n).
+
+**Step 2.2 : Accessing to a Leaf Node** 
+- Accessing to a random leaf in a set ```next(iter(tree.leafs))``` Costs O(1)
+
+**Step 2.3 : Adding the Leaf to the Independent Set**
+- Appending the leaf to the ```IndependentSet``` list is O(1).
+
+**Step 2.4 : Removing the Leaf**
+- Removing the leaf from the ```tree.leafs``` set is O(1) because removing elements from a set is an O(1) operation.
+
+**Step 2.5 : Removing the Parent and Grandparent**
+- Removing grandparent children ```leaf.parent.parent.children.remove(leaf.parent)``` costs O(1) because removing elements from a set is an O(1) operation.
+- Removing the grandparent ```leaf.parent.parent = None``` costs O(1)
+- Removing Parent ```leaf.parent = None``` costs O(1)
+
+**Step 2.6 : Update Leafs set**
+- Adding a node to leafs set ```tree.leafs.add(leaf.parent.parent)``` costs O(1)
+
+**Step 3 : Function costs** Each iteration of the while loop costs O(1) since we do this to achive all leafs and then remove the leafs now a graph has n nodes at worst case and we can say that function costs O(n)
+ 
 ## Max Independent Set for Graph
 
 ### Time complexity : O(V^2+VE)
